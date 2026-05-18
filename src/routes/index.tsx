@@ -88,7 +88,7 @@ sources: [
   },
   {
     label: "Wikipedia tiếng Việt — Trần Hưng Đạo",
-    url: wp("Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o")
+    url: wp("Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o"),
   ],
 },
   {
