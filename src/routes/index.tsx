@@ -74,18 +74,23 @@ const dungNuoc: StoryItem[] = [
   },
   {
     category: "Dựng nước & Giữ nước",
-    title: "Trận Bạch Đằng 1288",
-    date: "09/04/1288",
-    description: "Trần Hưng Đạo đánh tan thuỷ quân Nguyên Mông trên sông Bạch Đằng.",
-    image: wiki("Cọc nhọn Bạch Đằng 1288.JPG"),
-    fallback: wiki("Bach Dang river.jpg"),
-    story:
-      `Lần thứ ba quân Nguyên Mông xâm lược Đại Việt (1287–1288). Quốc công Tiết chế Hưng Đạo Đại vương Trần Quốc Tuấn cho đóng cọc gỗ lim đầu bịt sắt cắm dưới lòng sông Bạch Đằng, lợi dụng quy luật thuỷ triều để bẫy hạm đội rút lui của Ô Mã Nhi.\n\nNgày 8 tháng 3 năm Mậu Tý (9/4/1288), khi thuỷ triều rút, hạm đội Nguyên mắc cạn vào bãi cọc và bị quân Trần dùng hoả công, thuyền nhẹ tiêu diệt. Hơn 400 chiến thuyền bị phá huỷ, Ô Mã Nhi bị bắt sống.\n\nĐây là chiến thắng quyết định, chấm dứt mọi tham vọng xâm lược của đế chế Mông Cổ — đế chế hùng mạnh nhất thế giới thế kỷ XIII. Sông Bạch Đằng ba lần ghi dấu chiến công: 938 (Ngô Quyền), 981 (Lê Hoàn) và 1288 (Trần Hưng Đạo).`,
-    sources: [
-      { label: "Wikipedia tiếng Việt — Trận Bạch Đằng (1288)", url: wp("Tr%E1%BA%ADn_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng_(1288)") },
-      { label: "Wikipedia tiếng Việt — Trần Hưng Đạo", url: wp("Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o") },
-    ],
+title: "Trận Bạch Đằng 1288",
+date: "09/04/1288",
+description: "Trần Hưng Đạo đánh tan thuỷ quân Nguyên Mông trên sông Bạch Đằng.",
+image: wiki("Battle_of_Bach_Dang_river.jpg"),
+fallback: wiki("Bãi_cọc_cửa_sông_Bạch_Đằng.jpg"),
+story:
+  `Lần thứ ba quân Nguyên Mông xâm lược Đại Việt (1287–1288). Quốc công Tiết chế Hưng Đạo Đại vương Trần Quốc Tuấn cho đóng cọc gỗ lim đầu bịt sắt cắm dưới lòng sông Bạch Đằng, lợi dụng quy luật thuỷ triều để bẫy hạm đội rút lui của Ô Mã Nhi.\n\nNgày 8 tháng 3 năm Mậu Tý (9/4/1288), khi thuỷ triều rút, hạm đội Nguyên mắc cạn vào bãi cọc và bị quân Trần dùng hoả công, thuyền nhẹ tiêu diệt. Hơn 400 chiến thuyền bị phá huỷ, Ô Mã Nhi bị bắt sống.\n\nĐây là chiến thắng quyết định, chấm dứt mọi tham vọng xâm lược của đế chế Mông Cổ — đế chế hùng mạnh nhất thế giới thế kỷ XIII. Sông Bạch Đằng ba lần ghi dấu chiến công: 938 (Ngô Quyền), 981 (Lê Hoàn) và 1288 (Trần Hưng Đạo).`,
+sources: [
+  {
+    label: "Wikipedia tiếng Việt — Trận Bạch Đằng (1288)",
+    url: wp("Tr%E1%BA%ADn_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng_(1288)")
   },
+  {
+    label: "Wikipedia tiếng Việt — Trần Hưng Đạo",
+    url: wp("Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o")
+  },
+],
   {
     category: "Dựng nước & Giữ nước",
     title: "Quang Trung đại phá quân Thanh",
