@@ -73,7 +73,7 @@ const dungNuoc: StoryItem[] = [
     ],
   },
   {
-    category: "Dựng nước & Giữ nước",
+   category: "Dựng nước & Giữ nước",
 title: "Trận Bạch Đằng 1288",
 date: "09/04/1288",
 description: "Trần Hưng Đạo đánh tan thuỷ quân Nguyên Mông trên sông Bạch Đằng.",
@@ -89,8 +89,8 @@ sources: [
   {
     label: "Wikipedia tiếng Việt — Trần Hưng Đạo",
     url: wp("Tr%E1%BA%A7n_H%C6%B0ng_%C4%90%E1%BA%A1o")
-  },
-],
+  ],
+},
   {
     category: "Dựng nước & Giữ nước",
     title: "Quang Trung đại phá quân Thanh",
