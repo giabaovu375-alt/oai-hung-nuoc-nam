@@ -201,18 +201,18 @@ const cachMang: StoryItem[] = [
   },
   {
     category: "Thời đại Hồ Chí Minh",
-    title: "Giải phóng miền Nam — Thống nhất đất nước",
-    date: "30/04/1975",
-    description: "Non sông thu về một mối, Bắc Nam sum họp một nhà.",
-    image: wiki("Independence Palace, Saigon Ho Chi Minh City (9982392085).jpg"),
-    fallback: wiki("Tank 390 Reunification Palace 1975.jpg"),
-    story:
-      `Cuộc Tổng tiến công và nổi dậy mùa Xuân 1975 gồm ba chiến dịch lớn: Tây Nguyên (4 – 24/3), Huế – Đà Nẵng (21 – 29/3) và Chiến dịch Hồ Chí Minh (26 – 30/4).\n\nTrưa 30/4/1975, các xe tăng của Lữ đoàn xe tăng 203 tiến vào Dinh Độc Lập. Xe tăng 390 húc đổ cánh cổng chính, còn Trung uý Bùi Quang Thận lên nóc Dinh kéo cờ Mặt trận Dân tộc Giải phóng miền Nam Việt Nam.\n\nTổng thống Dương Văn Minh tuyên bố đầu hàng vô điều kiện. Sau 21 năm chia cắt, đất nước thống nhất, Bắc – Nam thu về một mối.`,
-    sources: [
-      { label: "Wikipedia tiếng Việt — Sự kiện 30 tháng 4 năm 1975", url: wp("S%E1%BB%B1_ki%E1%BB%87n_30_th%C3%A1ng_4_n%C4%83m_1975") },
-      { label: "Wikipedia tiếng Việt — Chiến dịch Hồ Chí Minh", url: wp("Chi%E1%BA%BFn_d%E1%BB%8Bch_H%E1%BB%93_Ch%C3%AD_Minh") },
-    ],
-  },
+title: "Giải phóng miền Nam — Thống nhất đất nước",
+date: "30/04/1975",
+description: "Non sông thu về một mối, Bắc Nam sum họp một nhà.",
+image: wiki("HCMCampaign.svg"),
+fallback: wiki("Reunification_Palace_april_30_1975.jpg"),
+story:
+  `Cuộc Tổng tiến công và nổi dậy mùa Xuân 1975 gồm ba chiến dịch lớn: Tây Nguyên (4 – 24/3), Huế – Đà Nẵng (21 – 29/3) và Chiến dịch Hồ Chí Minh (26 – 30/4).\n\nTrưa 30/4/1975, các xe tăng của Lữ đoàn xe tăng 203 tiến vào Dinh Độc Lập. Xe tăng 390 húc đổ cánh cổng chính, còn Trung uý Bùi Quang Thận lên nóc Dinh kéo cờ Mặt trận Dân tộc Giải phóng miền Nam Việt Nam.\n\nTổng thống Dương Văn Minh tuyên bố đầu hàng vô điều kiện. Sau 21 năm chia cắt, đất nước thống nhất, Bắc – Nam thu về một mối.`,
+sources: [
+  { label: "Wikipedia tiếng Việt — Sự kiện 30 tháng 4 năm 1975", url: wp("S%E1%BB%B1_ki%E1%BB%87n_30_th%C3%A1ng_4_n%C4%83m_1975") },
+  { label: "Wikipedia tiếng Việt — Chiến dịch Hồ Chí Minh", url: wp("Chi%E1%BA%BFn_d%E1%BB%8Bch_H%E1%BB%93_Ch%C3%AD_Minh") },
+],
+},
 ];
 
 // ============== VĂN HOÁ & DI SẢN ==============
