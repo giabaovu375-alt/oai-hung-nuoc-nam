@@ -25,6 +25,21 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: "Hành trình dựng nước, giữ nước và những con người làm thay đổi dân tộc." },
       { property: "og:type", content: "website" },
     ],
+    // Thêm mảng scripts này vào dưới meta
+    scripts: [
+      {
+        src: "https://www.googletagmanager.com/gtag/js?id=G-GDFCBL461T",
+        async: true,
+      },
+      {
+        children: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-GDFCBL461T');
+        `,
+      },
+    ],
   }),
 });
 
